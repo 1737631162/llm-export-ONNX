@@ -98,6 +98,11 @@ python llm_export.py \
         --mnn_path  ./chatglm2-6b-mnn
 ```
 
+3. 执行LLMExporter导出模型(Qwen-1.5)
+```sh
+python llm_export.py --path E:\Model\ModelTest\Qwen1_5-4B-Chat --export_split --export_token --export_mnn --onnx_path ./Qwen1_5_4B_Chat-onnx --mnn_path  ./Qwen1_5_4B_Chat-mnn
+```
+
 ## 功能
 - 支持将模型完整导出为一个onnx模型，使用`--export`
 - 支持将模型分段导出为多个模型，使用`--export_split`
